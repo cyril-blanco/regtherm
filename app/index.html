@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+
+    <title>Regtherm</title>
+</head>
+<body>
+    <div class="header">
+        <h1 id="title">Visualisation Regtherm</h1>
+        <div class="controls">
+            <button id="toggle_form">Charger des données</button>
+            <button id="save">Sauver en tant qu'image</button>
+        </div>
+        <div id="input_data" style="opacity: 0">
+            <div class="file">
+                <h3 id="load_file">Chargement de fichier</h3>
+                <input type="file" id="input_file">
+            </div>
+            <div class="paste">
+                <h3 id="load_paste">Coller les données</h3>
+                <div>
+                    <textarea id="data_input" rows="28" cols="131"></textarea>
+                </div>
+                <button id="load_paste_submit">Valider</button>
+                <button id="load_paste_clear">Clear</button>
+            </div>
+        </div>
+    </div>
+    <div id="svg_container"></div>
+    <canvas style="display: none"></canvas>
+
+    <!-- @if APP_ENV="DEV" -->
+    <script src="//localhost:8081/livereload.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+    <!-- @endif -->
+
+    <!-- @if APP_ENV="PROD" -->
+    <script type="text/javascript" src="app.min.js"></script>
+    <!-- @endif -->
+</body>
+</html>

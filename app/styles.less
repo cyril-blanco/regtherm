@@ -1,0 +1,36 @@
+body {
+    font-family: Verdana, sans-serif;
+}
+
+.header {
+    width: 1100px;
+    position: relative;
+    
+    .controls {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+}
+
+#svg_container {
+    width: 1100px;
+}
+
+#input_data {
+    position: absolute;
+    right: 0;
+    height: 600px;
+    opacity: 0;
+    
+    padding: 0 10px;
+    
+    overflow: hidden;
+    
+    background-color: #fff;
+    border: 1px solid #999;
+    
+    &.open {
+        opacity: 1 !important;
+    }
+}

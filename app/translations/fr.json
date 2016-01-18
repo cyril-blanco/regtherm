@@ -1,0 +1,22 @@
+{
+  "title": "Visualisation Regtherm",
+  "load": "Charger des données",
+  "load_file": "Chargement de fichier",
+  "load_paste": "Coller les données",
+  "load_paste_submit": "Valider",
+  "load_paste_clear": "Vider",
+  "save": "Sauver en tant qu'image",
+  "time": "Heure locale",
+  "clouds": "Nuages",
+  "clouds_high": "Haut",
+  "clouds_middle": "Moyen",
+  "clouds_low": "Bas",
+  "clouds_rainfall": "Précipitations",
+  "wind": "Vent",
+  "wind_direction": "Direction",
+  "wind_speed": "km/h",
+  "wind_turbulence": "Turbulence",
+  "vario": "Vario",
+  "vario_cumuli": "Cumuli",
+  "vario_average": "Ø"
+}
