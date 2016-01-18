@@ -10,3 +10,6 @@ https://shop.meteoswiss.ch/themeView.html?type=pt&id=1&n=0&request_locale=fr
 
 ## Data file description
 https://shop.meteoswiss.ch/image/picture/legende_regtherm_f.pdf?import=false
+
+## Screenshots
+![Regtherm visualization screenshot](docs/images/screenshot.png?raw=true)
